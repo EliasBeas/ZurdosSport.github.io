@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="sw.js"></script>
+    <title>ZURDOS SPORT - Tu Tienda Deportiva </title>
+    <link rel="Icon" href="/img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    </head>
+  <body class="bg-gray-100 text-gray-900">
+  
+    <!-- Navbar -->
+    <header class="bg-gray-800 text-white sticky top-0 z-50 shadow-lg">
+  <div class="container mx-auto flex justify-between items-center py-4 px-6">
+    <div class="flex items-center space-x-4">
+      <img src="/img/logo.png" alt="Logo" class="h-10 w-10"> <!-- Espacio para el logo -->
+      <h1 class="text-3xl font-extrabold tracking-wide text-yellow-500">ZURDOS SPORT</h1>
+
+    </div>
+    <nav class="space-x-4">
+      <a href="#inicio" class="text-lg hover:text-gray-300 transition-colors">Inicio</a>
+      <a href="#acerca" class="text-lg hover:text-gray-300 transition-colors">Acerca de</a>
+      <a href="#propuesta" class="text-lg hover:text-gray-300 transition-colors">Propuesta</a>
+      <a href="mostrador.html" class="text-lg hover:text-gray-300 transition-colors">Productos</a>
+      <a href="#resenas" class="text-lg hover:text-gray-300 transition-colors">Reseñas</a>
+      <a href="#contacto" class="text-lg hover:text-gray-300 transition-colors">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+  
+    <!-- INICIO Section -->
+    <section id="inicio" class="bg-cover bg-center py-24" style="background-image: url('/img/fondo3.jpg');">
+      <div class="container mx-auto text-center text-white bg-black bg-opacity-50 py-12 px-6 rounded-lg">
+        <h2 class="text-5xl font-bold">Bienvenido a Zurdos Sport</h2>
+        <p class="mt-4 text-xl">Tu tienda deportiva de confianza, donde encontrarás lo último y mejor en ropa deportiva de futbol y otros accesorios.</p>
+        <a href="mostrador.html" class="inline-block">
+          <button class="mt-8 bg-yellow-500 text-black px-8 py-3 font-semibold rounded shadow hover:bg-yellow-600 transition-colors">
+            Explorar Productos
+          </button>
+        </a>
+        
+      </div>
+    </section>
+  
+    <section id="acerca" class="bg-gray-100 py-16 px-6">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-gray-800 mb-4">Acerca de Zurdos Sport</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">En Zurdos Sports nos esforzamos por ofrecer productos deportivos de alta calidad a precios competitivos y una experiencia de compra confiable. Nuestra misión es hacer que el deporte y el bienestar estén al alcance de todos.
+
+
+
+
+
+
+
+        </p>
+        <div class="mt-8 flex justify-center">
+          <img src="/img/fondo4.jpg" alt="Imagen de la tienda" class="rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+        </div>
+      </div>
+    </section>
+  
+    <!-- PROPUESTA Section -->
+    <section id="propuesta" class="bg-yellow-50 py-16 px-6">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-gray-800 mb-4">Nuestra Propuesta</h2>
+        <p class="text-lg text-gray-700 max-w-2xl mx-auto">Nuestra propuesta es simple: ofrecer productos deportivos de calidad y asesoría especializada, con atención unica.</p>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Variedad de Productos</h3>
+            <p class="text-gray-700">Contamos con una amplia gama de productos, desde ropa y calzado deportivo hasta equipos y accesorios para diferentes disciplinas.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Envíos a Todo el País</h3>
+            <p class="text-gray-700">Realizamos envíos rápidos y seguros a cualquier lugar del país, con opciones de entrega express para tu comodidad.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Asesoría Especializada</h3>
+            <p class="text-gray-700">Nuestro equipo está capacitado para ayudarte en cualquier consulta y duda de algun producto que quieras adquirir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- PRODUCTOS Section -->
+    <section id="productos" class="bg-gray-100 py-16 px-6">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-gray-800 mb-4">Algunos Productos</h2>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/img/Jersey Barcelona.png" alt="Producto 1" class="w-full rounded-lg">
+            <h3 class="text-xl font-bold mt-4 text-gray-800">Jersey Barcelona Temporada 2024-2025</h3>
+            <p class="text-gray-600 mt-2">El último modelo de la equipacion local de FC BARCELONA.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/img/Guantes3.png" alt="Producto 2" class="w-full rounded-lg">
+            <h3 class="text-xl font-bold mt-4 text-gray-800">Guantes para Portero Profesional</h3>
+            <p class="text-gray-600 mt-2">Guantes para portero profesional marca SPYDER A.Q.N.M.L.M</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/img/taquetes2.png" alt="Producto 3" class="w-full rounded-lg">
+            <h3 class="text-xl font-bold mt-4 text-gray-800">Taquetes de Futbol Talla Infantil</h3>
+            <p class="text-gray-600 mt-2">Taquetes de Futbol Talla Infantil Manriquez Color Negro</p>
+          </div>
+        </div>
+    </section>
+  
+    <!-- RESEÑAS Section -->
+    <section id="resenas" class="bg-gray-200 py-16 px-6">
+    <h2 class="text-4xl font-extrabold text-gray-800 text-center mb-6">Reseñas de nuestros clientes</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto">
+      <div class="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center">
+        <img src="/img/Usuario.png" alt="Cliente 1" class="w-24 h-24 rounded-full mb-4">
+        <p class="text-gray-700 text-center">"EXCELENTE ATENCIÓN Y SERVICIO, VARIEDAD DE UNIFORMES..."</p>
+        <span class="text-sm text-gray-500 mt-2">- Galia Crespo</span>
+      </div>
+      <div class="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center">
+        <img src="/img/Usuario.png" alt="Cliente 2" class="w-24 h-24 rounded-full mb-4">
+        <p class="text-gray-700 text-center">"Excelente Servicio, Calidad y Puntualidad."</p>
+        <span class="text-sm text-gray-500 mt-2">- Luis Salas</span>
+      </div>
+      <div class="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center">
+        <img src="/img/Usuario.png" alt="Cliente 3" class="w-24 h-24 rounded-full mb-4">
+        <p class="text-gray-700 text-center">"Excelente servicio y calidad, ampliamente recomendado."</p>
+        <span class="text-sm text-gray-500 mt-2">- Alan Meza</span>
+      </div>
+    </div>
+    </section>
+  
+    <!-- CONTACTO Section -->
+    <section id="contacto" class="bg-gray-100 py-16 px-6">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-gray-800 mb-4">Contáctanos</h2>
+        <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+          Síguenos y contáctanos directamente a través de nuestra página de Facebook.
+        </p>
+    
+        <!-- Plugin de Página de Facebook -->
+        <div class="flex justify-center">
+          <div class="fb-page" 
+              data-href="https://www.facebook.com/Zurdos.Sport" 
+              data-tabs="timeline" 
+              data-width="100" 
+              data-height="100" 
+              data-small-header="false" 
+              data-adapt-container-width="true" 
+              data-hide-cover="false" 
+              data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/Zurdos.Sport" 
+                        class="fb-xfbml-parse-ignore">
+              <a href="https://www.facebook.com/Zurdos.Sport">ZURDOS SPORTS</a>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    
+      <!-- SDK de Facebook (asegúrate de incluir este script una sola vez en tu sitio web) -->
+      <script async defer crossorigin="anonymous" 
+              src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" 
+              nonce="abc123">
+      </script>
+    </section>
+    
+    
+    <!-- Google Maps Embed -->
+    <div class="flex justify-center mt-10">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.9333514800883!2d-104.8715174!3d21.4711316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8427373521b6f9cf%3A0xfc956aa608436850!2sZurdos%20Sport!5e0!3m2!1ses!2smx!4v1737495134624!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+  
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p class="font-semibold">© 2024 ZURDOS SPORT - Todos los derechos reservados</p>
+        <div class="mt-4 flex justify-center space-x-4">
+          <a href="https://www.facebook.com/Zurdos.Sport?locale=es_LA" class="hover:text-gray-400 font-semibold">Facebook</a>
+          <a href="https://www.tiktok.com/@zurdossport" class="hover:text-gray-400 font-semibold">Tik Tok</a>
+          <a href="https://www.instagram.com/zurdos_sport/" class="hover:text-gray-400 font-semibold">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+</body>
+
+</html>
