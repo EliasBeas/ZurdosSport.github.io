@@ -1,0 +1,28 @@
+{
+    "name": "Test PWA ZURDOS SPORT",
+    "short_name": "Test",
+    "description": "Testing testing, 1, 2, 3",
+    "start_url": "/",
+    "scope": "/Home.html",
+    "icons": [
+    {
+        "src": "/icons/icon128.jpg",
+        "sizes": "128x128",
+        "type": "image/jpg"
+    },
+    {
+        "src": "/icons/icon256.jpg",
+        "sizes": "256x256",
+        "type": "image/jpg"
+    },
+    {
+        "src": "/icons/icon512.jpg",
+        "sizes": "512x512",
+        "type": "image/jpg"
+    }
+    ],
+    "theme_color": "#305010",
+    "background_color": "#0F7F9F",
+    "display": "fullscreen",
+    "orientation": "portrait"
+}
